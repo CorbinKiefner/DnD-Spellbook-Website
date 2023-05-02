@@ -38,7 +38,7 @@ const Layout = ({ pageTitle, children }) => {
           </li>
           <li className={navLinkItem}>
             <Link to="/Spells" className={navLinkText}>
-              Spells
+              Spellbook
             </Link>
           </li>
         </ul>
