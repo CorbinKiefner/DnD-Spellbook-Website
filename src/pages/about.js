@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 // Step 2: Define your component
 const AboutPage = () => {
   return (
-    <Layout pageTitle="About the site">
+    <Layout pageTitle="About the Book">
       <p>Hi there! I'm the proud creator of this site, which I built with Gatsby. This website is 
         made for individuals who love to play Dungeons & Dragons, but hate not having all of their
         spells in one place. Lucky for you, this is that place! Here, you will be able to search through
