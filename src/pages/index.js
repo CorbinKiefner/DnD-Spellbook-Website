@@ -8,6 +8,7 @@ import Seo from '../components/seo'
 const IndexPage = () => {
   return (
     <Layout pageTitle="Home Page">
+      <hr></hr>
       <p>Welcome to your very own spellbook.</p>
       <StaticImage
         alt="A wizards spellbook, open for you to read."

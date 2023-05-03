@@ -7,6 +7,7 @@ import Seo from '../components/seo'
 const AboutPage = () => {
   return (
     <Layout pageTitle="About the Book">
+      <hr></hr>
       <p>Hi there! I'm the proud creator of this site, which I built with Gatsby. This website is 
         made for individuals who love to play Dungeons & Dragons, but hate not having all of their
         spells in one place. Lucky for you, this is that place! Here, you will be able to search through

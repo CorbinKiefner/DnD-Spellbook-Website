@@ -10,7 +10,7 @@ const BlogPost = ({ data, children }) => {
 
       <hr></hr>
 
-      <em><p>{data.mdx.frontmatter.level}</p></em>
+      <em><p>{data.mdx.frontmatter.levelblurb}</p></em>
       <p><strong>Casting Time:</strong> {data.mdx.frontmatter.castingtime}</p>
       <p><strong>Range:</strong> {data.mdx.frontmatter.range}</p>
       <p><strong>Components:</strong> {data.mdx.frontmatter.components}</p>
@@ -23,8 +23,8 @@ const BlogPost = ({ data, children }) => {
 
       <hr></hr>
       
-      <p>Spell lists: {data.mdx.frontmatter.lists}</p>
-      <p>Source: {data.mdx.frontmatter.source}</p>
+      <p><strong>Spell Lists:</strong> {data.mdx.frontmatter.lists}</p>
+      <p><strong>Source:</strong> {data.mdx.frontmatter.source}</p>
 
       <hr></hr>
     </Layout>
@@ -37,7 +37,7 @@ export const query = graphql`
       frontmatter {
         title
         slug
-        level
+        levelblurb
         castingtime
         range
         components
