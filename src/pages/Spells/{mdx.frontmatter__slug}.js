@@ -46,6 +46,7 @@ export const query = graphql`
         levelinfo
         lists
         source
+        level
       }
     }
   }
