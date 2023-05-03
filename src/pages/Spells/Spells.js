@@ -29,8 +29,10 @@ export const query = graphql`
           frontmatter {
             title
             slug
+            level
           }
           id
+          excerpt
         }
       }
   }
